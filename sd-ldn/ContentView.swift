@@ -10,10 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ZStack{
+                RoundedRectangle(cornerRadius: 8).frame(width: 100.0,height: 50.0)
+                Text("SD LDN").bold().foregroundColor(.black)
+            }
+            TabView{
+                Home().tabItem {
+                    Label("Home",systemImage: "home")
+                }
+            }
         }
         .padding()
     }

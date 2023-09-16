@@ -11,6 +11,8 @@
 		32F18CE32AB5BC2E00C7FAB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F18CE22AB5BC2E00C7FAB8 /* ContentView.swift */; };
 		32F18CE52AB5BC2F00C7FAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F18CE42AB5BC2F00C7FAB8 /* Assets.xcassets */; };
 		32F18CE92AB5BC2F00C7FAB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F18CE82AB5BC2F00C7FAB8 /* Preview Assets.xcassets */; };
+		32F18CF02AB5BF0F00C7FAB8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F18CEF2AB5BF0F00C7FAB8 /* Home.swift */; };
+		32F18CF22AB5C0BB00C7FAB8 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F18CF12AB5C0BB00C7FAB8 /* item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		32F18CE42AB5BC2F00C7FAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F18CE62AB5BC2F00C7FAB8 /* sd_ldn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sd_ldn.entitlements; sourceTree = "<group>"; };
 		32F18CE82AB5BC2F00C7FAB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32F18CEF2AB5BF0F00C7FAB8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		32F18CF12AB5C0BB00C7FAB8 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				32F18CE02AB5BC2E00C7FAB8 /* sd_ldnApp.swift */,
 				32F18CE22AB5BC2E00C7FAB8 /* ContentView.swift */,
+				32F18CEF2AB5BF0F00C7FAB8 /* Home.swift */,
+				32F18CF12AB5C0BB00C7FAB8 /* item.swift */,
 				32F18CE42AB5BC2F00C7FAB8 /* Assets.xcassets */,
 				32F18CE62AB5BC2F00C7FAB8 /* sd_ldn.entitlements */,
 				32F18CE72AB5BC2F00C7FAB8 /* Preview Content */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F18CF22AB5C0BB00C7FAB8 /* item.swift in Sources */,
 				32F18CE32AB5BC2E00C7FAB8 /* ContentView.swift in Sources */,
+				32F18CF02AB5BF0F00C7FAB8 /* Home.swift in Sources */,
 				32F18CE12AB5BC2E00C7FAB8 /* sd_ldnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
