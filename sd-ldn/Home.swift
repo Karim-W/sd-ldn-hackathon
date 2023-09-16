@@ -11,7 +11,7 @@ struct Home: View {
     var body: some View {
         VStack{
             Text("Top Selling").font(.largeTitle).bold().padding()
-            
+            CarouselView()
         }
     }
 }
